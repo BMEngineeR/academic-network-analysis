@@ -58,3 +58,21 @@ If these columns are not found, the application will assume the first column con
 ## License
 
 MIT 
+
+### Example with Included Dataset
+
+This repository includes an example dataset:
+
+- **File:** `works-2025-05-09T21-24-58.csv`
+- **Location:** In this repository (see the root directory)
+- **How to use:**
+  1. Upload `works-2025-05-09T21-24-58.csv` through the web interface
+  2. Enter `Sizun Jiang` as the center author
+  3. Click "Analyze Network" to visualize the collaboration network
+
+This will generate a network visualization with Sizun Jiang at the center, showing their academic collaboration network and institutional connections.
+
+#### About the Example CSV
+- The file `works-2025-05-09T21-24-58.csv` is included in this repository for convenience.
+- You can also download and search for similar datasets from [OpenAlex](https://openalex.org/), a fully open catalog of the global research system.
+- To get your own data: Go to [https://openalex.org/](https://openalex.org/), search for papers, authors, or topics, and export the results as a CSV file for use with this application. 
